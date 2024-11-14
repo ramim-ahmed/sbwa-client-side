@@ -5,7 +5,7 @@ import Image from "next/image";
 const CommunitySection = () => {
   return (
     <Wrapper>
-      <div className="pt-36 pb-10 gap-4 grid grid-cols-8">
+      <div className="pt-20 pb-10 gap-4 grid grid-cols-8">
         <div className="lg:col-span-2 col-span-8">
           <ul className="border bg-gray-100  font-bold">
             <li className="py-2 px-4 border border-gray-200">GET INVOLVED</li>

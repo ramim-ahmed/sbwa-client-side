@@ -39,10 +39,10 @@ const FeatureCard: React.FC<{ feature: IFeature }> = ({ feature }) => (
 
 const FeaturesPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-16 px-4">
+    <div className='mt-10'>
       <Wrapper>
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 px-4">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Our Community Services
           </h1>
@@ -68,8 +68,8 @@ const FeaturesPage: React.FC = () => {
         </div>
 
         {/* Tabbed Features Section */}
-        <Tabs defaultValue="all" className="space-y-8">
-          <TabsList className="flex justify-center">
+        <Tabs defaultValue="all" className="space-y-8 px-4">
+          <TabsList className="flex lg:flex-row lg:h-[150px] h-[200px] flex-col justify-center">
             <TabsTrigger value="all">All Services</TabsTrigger>
             <TabsTrigger value="community">Community</TabsTrigger>
             <TabsTrigger value="cultural">Cultural</TabsTrigger>

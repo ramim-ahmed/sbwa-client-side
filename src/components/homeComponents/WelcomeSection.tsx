@@ -6,9 +6,9 @@ const WelcomeSection = () => {
   return (
     <div className="py-20">
       <Wrapper>
-        <div className="grid grid-cols-12 gap-10 justify-between">
-          <div className="lg:col-span-5 col-span-12">
-            <div className="text-white p-4 rounded bg-black text-center">
+        <div className="px-4 grid lg:grid-cols-2 grid-cols-1 gap-10">
+          <div>
+            <div className="text-white px-4 py-8 rounded bg-black text-center">
               <div>
                 <h3 className="text-3xl font-bold mb-3">
                   Welcome to the Brookton Civic Association
@@ -19,29 +19,21 @@ const WelcomeSection = () => {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-7 col-span-12 relative flex justify-center">
-            <div className="flex">
-              <div className="">
-                <Image
-                  alt=""
-                  width={350}
-                  height={300}
-                  src="/images/welcome-1.jpg"
-                />
-              </div>
-              <div className="">
-                <Image
-                  alt=""
-                  width={400}
-                  height={300}
-                  src="/images/welcome-2.jpg"
-                />
-              </div>
+          <div className="mt-10 lg:mt-0">
+            <div className="">
+              <Image
+                alt=""
+                width={350}
+                height={300}
+                src="/images/welcome.png"
+                style={{ width: "100%" }}
+              />
             </div>
+
           </div>
         </div>
-      </Wrapper>
-    </div>
+      </Wrapper >
+    </div >
   );
 };
 
